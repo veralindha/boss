@@ -1,12 +1,12 @@
 [
-    { "msgs": ["Hi"], "msgInputSpeed": 60 },
-    { "msgs": ["Kamu Apa Kabar ??"], "msgInputSpeed": 60 },
+    { "msgs": ["Hi"], "msgInputSpeed": 80 },
+    { "msgs": ["Kamu Apa Kabar ??"], "msgInputSpeed": 80 },
     {
         "msgs": ["Baru ketemu udah kangen lagi hehe..", "Kamu sehat kan ??"],
-        "msgInputSpeed": 40
+        "msgInputSpeed": 80
     },
     { "msgs": ["Ingettttt !!"], "msgInputSpeed": 60 },
-    { "msgs": ["，inget !! gaboleh makan mie !!"], "msgInputSpeed": 60 },
+    { "msgs": ["Gaboleh makan mie !!"], "msgInputSpeed": 60 },
     { "msgs": ["Ga boleh minum es !!"], "msgInputSpeed": 60 },
     { "msgs": ["Sekarang lagi ga halangan kn?? lagi ga bdmd kan??"], "msgInputSpeed": 60 },
     {
@@ -23,44 +23,27 @@
             }
         }
     },
-    { "msgs": ["oke lanjut.. "], "msgInputSpeed": 40 },
-    { "msgs": [""], "msgInputSpeed": 40 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    { "msgs": ["memiliki seseorang seperti mu, bukanlah hal yang buruk"], "msgInputSpeed": 40 },
-    { "msgs": ["juga bukanlah hal yang baik, tentunya wkwkwk"], "msgInputSpeed": 60 },
-    { "msgs": ["karena denganmu aku menemukan sisi baik buruk nya tentang pertemanan"], "msgInputSpeed": 60 },
-    { "msgs": ["belajar memahami bahasa teman kita sendiri"], "msgInputSpeed": 60 },
-    { "msgs": ["tentang bahasa memberi kabar tanpa harus diminta"], "msgInputSpeed": 60 },
-    { "msgs": ["tentang bahasa sedih bahagia nya kita.."], "msgInputSpeed": 60 },
-    { "msgs": ["dan.."], "msgInputSpeed": 60 },
-    { "msgs": ["bahasa monyet tentunya wkwkw.."], "msgInputSpeed": 60 },
-    { "msgs": ["coba liat ini.."], "msgInputSpeed": 60 },
+    { "msgs": ["oke lanjut.. "], "msgInputSpeed": 80 },
+    { "msgs": ["Matahari yang memiliki sinarnya.."], "msgInputSpeed": 80 },
+    { "msgs": ["Langit yang memiliki warna birunya.."], "msgInputSpeed": 80 },
+    { "msgs": ["Indah Bukan ??"], "msgInputSpeed": 80 },
+    { "msgs": ["Begitupun aku yang memiliki permen milkita, kaya akan kalsium"], "msgInputSpeed": 80 },
+    { "msgs": ["eits.. bercanda.. bukan iklan kok wkwkwk"], "msgInputSpeed": 80 },
+    { "msgs": ["Begitupun aku yang memiliki seseorang sepertimu, kamu memiliki keduanya.."], "msgInputSpeed": 60 },
+    { "msgs": ["Kamu cerah dan biru.."], "msgInputSpeed": 80 },
+    { "msgs": ["Bahkan lebih indah bukan ?? wkwkwwk"], "msgInputSpeed": 80 },
+    { "msgs": ["tempat cerita, tempat tutorial cilok dan tempat segalanya.. hehe"], "msgInputSpeed": 80 },
+    { "msgs": ["ehh tapi diliat liat kmu mirip permen milkita.. putih, manis, bedanya..kamu kaya akan senyum.."], "msgInputSpeed": 60 },
+    { "msgs": ["yang sekali senyum setara dengan 3 gelas juz mangga"], "msgInputSpeed": 80 },
+    { "msgs": ["tak ada tandinganya.. wkwkw"], "msgInputSpeed": 70 },
+    { "msgs": ["Gunung ijen dan kawahnya menjadi saksi mata klo kita pernah foto bersama wkwk"], "msgInputSpeed": 60 },
+    { "msgs": ["Ya walau fotonya sekarang hilang wkwk, tapi ntar klo lupa tinggal tanya ke ijen aja wkwk"], "msgInputSpeed": 60 },
+    { "msgs": ["mau liat hal konyol ?? ni liat .."], "msgInputSpeed": 60 },
     {
-        "msgs": ["<vlog src='options/demo/vlogs/monyet.mp4'/>"],
+        "msgs": ["<vlog src='options/demo/vlogs/motor.mp4'/>"],
         "triggerNextAction": { "type": "componentClose" }
     },
-    { "msgs": ["hehe.. ingat ga?? konyol sekali ya kita.. tapi itulah kita wkwkwk"], "msgInputSpeed": 60 },
+    { "msgs": ["hehe.. ingat ga?? konyol sekali kan kita.. tapi itulah kita wkwkwk"], "msgInputSpeed": 60 },
     { "msgs": ["sekarang lagi nyantai ga??"], "msgInputSpeed": 60 },
     { "msgs": ["klo lagi ngga santai, mending close dulu.. "], "msgInputSpeed": 60 },
     {
@@ -91,7 +74,7 @@
             }
         }
     },
-    { "msgs": ["<img src='options/demo/imgs/radha.jpg'/>"] },
+    { "msgs": ["<img src='options/demo/imgs/ega.jpg'/>"] },
     { "msgs": ["buat kenang kenangan aja wkwkwk.."], "msgInputSpeed": 60 },
     { "msgs": ["simpen ya..."], "msgInputSpeed": 60 },
     {
@@ -102,7 +85,7 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["boleh","iya","mau","brother"],
+                "resolveKeyTexts": ["boleh","iya","mau","okay"],
                 "rejectKeyTexts": ["gamau", "gak mau tau"],
                 "rejectHitTexts": ["bales mau klo mau", "dibilang bales mau klo mau， kalo gamau ya bales gamau", "klo gamau yaudah aku ga maksa kok hehe"]
             }
@@ -131,11 +114,14 @@
         "msgs": ["<letter src='options/demo/letters/kata.json'/>"],
         "triggerNextAction": { "type": "componentClose" }
     },
-    { "msgs": ["udah.. itu doang.."], "msgInputSpeed": 60 },
-    { "msgs": ["jangan lupa pulang ya.. aku suka banyuwangi yang ada kamunya hehe"], "msgInputSpeed": 60 },
-    { "msgs": ["dah jangan nangis.."], "msgInputSpeed": 60 },
-    { "msgs": ["nanti ultraman ikut nangis loh"], "msgInputSpeed": 60 },
-    { "msgs": ["klo ultraman sedih, gada yang melindungi dunia, gada yang melindungi kamu juga"], "msgInputSpeed": 60 },
-    { "msgs": ["cukup video sekian ini kali, sampai kembali jumpa di channel youtube guys ya.."], "msgInputSpeed": 60 },
-    { "msgs": ["wassalamualaikum wr wb (emote love biru)"], "msgInputSpeed": 60 }
+    { "msgs": ["Udah.. itu doang.."], "msgInputSpeed": 60 },
+    { "msgs": ["Jangan suka OVT lagi ya..."], "msgInputSpeed": 60 },
+    { "msgs": ["Mending sini cerita.."], "msgInputSpeed": 60 },
+    { "msgs": ["Kalo mau sedih, mau nangis, sini ke aku aja.."], "msgInputSpeed": 60 },
+    { "msgs": ["Aku tak pernah melihatmu menangis.."], "msgInputSpeed": 60 },
+    { "msgs": ["Jika nanti kamu menangis karena rasa sakit dariku, katakanlah padaku.."], "msgInputSpeed": 60 },
+    { "msgs": ["Karena aku akan menyesalinya.."], "msgInputSpeed": 60 },
+    { "msgs": ["Terimakasih ya.."], "msgInputSpeed": 60 },
+    { "msgs": ["wassalamualaikum wr wb (emote love biru)"], "msgInputSpeed": 60 },
+    { "msgs": ["<img src='options/demo/imgs/love.png'/>"] }
 ]
