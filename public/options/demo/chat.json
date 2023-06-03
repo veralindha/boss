@@ -75,6 +75,8 @@
         }
     },
     { "msgs": ["<img src='options/demo/imgs/ega.jpg'/>"] },
+    { "msgs": ["<img src='options/demo/imgs/ega2.jpg'/>"] },
+    { "msgs": ["<img src='options/demo/imgs/ega3.jpg'/>"] },
     { "msgs": ["buat kenang kenangan aja wkwkwk.."], "msgInputSpeed": 60 },
     { "msgs": ["simpen ya..."], "msgInputSpeed": 60 },
     {
