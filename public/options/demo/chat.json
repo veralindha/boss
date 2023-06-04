@@ -68,9 +68,66 @@
         "triggerNextAction": {
             "type": "userInput",
             "options": {
-                "resolveKeyTexts": ["lanjut"],
+                "resolveKeyTexts": ["lanjut la"],
                 "rejectKeyTexts": ["ngga"],
                 "rejectHitTexts": ["yaudah klo gamau keluar aja"]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "1 + 1, sama dengan ?"
+        ],
+        "msgInputSpeed": 60,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["2", "dua"],
+                "rejectKeyTexts": ["gatau"],
+                "rejectHitTexts": ["hmm.. salah"]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "kalo kamu + nasi, sama dengan ?"
+        ],
+        "msgInputSpeed": 60,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["setengah", "1/2"],
+                "rejectKeyTexts": ["gatau"],
+                "rejectHitTexts": ["hmm.. salah"]
+            }
+        }
+    },
+    {
+        "msgs": [
+            "kalo kamu + pantai, sama dengan ?"
+        ],
+        "msgInputSpeed": 60,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["aku", "bocil"],
+                "rejectKeyTexts": ["gatau"],
+                "rejectHitTexts": ["<vlog src='options/demo/vlogs/bocil.mp4'/>"]
+            }
+        }
+    },
+    { "msgs": ["kamu + pantai sama dengan bocil, wkwkwk"], "msgInputSpeed": 60 },
+    {
+        "msgs": [
+            "bocil ilang wkwkkw"
+        ],
+        "msgInputSpeed": 60,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["hm", "bocil"],
+                "rejectKeyTexts": ["gatau"],
+                "rejectHitTexts": ["jan marah wwkwkwk"]
             }
         }
     },
